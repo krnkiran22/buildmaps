@@ -1,0 +1,41 @@
+@import "tailwindcss";
+
+:root {
+  --background: #000000;
+  --foreground: #ffffff;
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+/* Leaflet Dark Theme Overrides */
+.leaflet-container {
+  background: #000 !important;
+}
+
+.leaflet-popup-content-wrapper {
+  background: #fff;
+  color: #000;
+  border-radius: 4px;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+
+.leaflet-popup-tip {
+  background: #fff;
+}
+
+.leaflet-bar a {
+  background-color: #000 !important;
+  color: #fff !important;
+  border-color: #333 !important;
+}
+
+.leaflet-control-zoom {
+  border: 1px solid rgba(255, 255, 255, 0.1) !important;
+}
