@@ -14,7 +14,7 @@ const API_URL = '/api';
 
 export default function Home() {
   const [locations, setLocations] = useState<Location[]>([]);
-  const [center, setCenter] = useState<[number, number]>([51.505, -0.09]);
+  const [center, setCenter] = useState<[number, number]>([20.5937, 78.9629]);
   const [isLocating, setIsLocating] = useState(false);
 
   const fetchLocations = async () => {
